@@ -1,0 +1,95 @@
+*,::after,::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 1rem/1.4 "Arial", sans-serif;
+    color: #333;
+}
+
+.container {
+    max-width: 991px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007ce6;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover, a:active {
+    color: #0066bc;
+}
+
+ul li {
+    list-style-position: inside;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+ul li b {
+    margin-right: 15px;
+    font-size: 14px;
+    min-width: 75px;
+    display: inline-block;
+    text-align: right;
+}
+
+.block {
+    margin-bottom: 30px;
+}
+
+.block-photo {
+    float: right;
+    margin: -50px 0 20px 60px;
+    transition: 0.2s;
+}
+
+.block-photo img{
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+}
+
+
+.block-photo:after {
+    clear: both;
+}
+
+.block-contacts span{
+    display: inline-block;
+    width: 50px;
+}
+
+.block-contacts .contact-item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 7px;
+}
+
+.block-contacts .contact-item:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 2px;
+    background-image: url("img/skype_ico.png");
+    height: 20px;
+    width: 20px;
+}
+
+.block-contacts .contact-item.email:before {
+    background-image: url("img/email_ico.png");
+    background-size: cover;
+}

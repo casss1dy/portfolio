@@ -1,0 +1,54 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+
+    &.backdrop {
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.frame {
+    background: #fff;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+    &.mobile {
+        width: 650px;
+        height: 1564px;
+    }
+
+}
+
+.btn-block {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+
+.btn {
+    margin-bottom: 15px;
+    padding: 20px 45px;
+    border-radius: 10px;
+    background: #f5c506;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    opacity: 0.6;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.btn-mobile {
+
+}
