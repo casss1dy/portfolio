@@ -1,0 +1,42 @@
+$font-path: 'assets/fonts';
+
+@font-face {
+  font-family: 'FuturaBookC';
+  src: url('#{$font-path}/FuturaBookC.woff2') format('woff2'),
+    url('#{$font-path}/FuturaBookC.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaDemiC';
+  src: url('#{$font-path}/FuturaDemiC.woff2') format('woff2'),
+    url('#{$font-path}/FuturaDemiC.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaMediumC';
+  src: url('#{$font-path}/FuturaMediumC.woff2') format('woff2'),
+  url('#{$font-path}/FuturaMediumC.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$font-path}/ProximaNova-Regular.woff2') format('woff2'),
+  url('#{$font-path}/ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yeseva One';
+  src: url('#{$font-path}/YesevaOne.woff2') format('woff2'),
+  url('#{$font-path}/YesevaOne.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
