@@ -1,10 +1,8 @@
 const body = document.querySelector('body');
 const frame = document.querySelector('.frame');
 
-document.querySelector('.btn-mobile').addEventListener('click', () => {
-  let scrollTop = window.pageYOffset;
-  console.log(scrollTop);
+document.querySelector('.btn-mobile').addEventListener('click', (e) => {
   frame.classList.toggle('mobile');
   body.classList.toggle('backdrop');
-  window.scrollTo(0, scrollTop + 'px');
+  e.target.textContent = frame.classList.contains('mobile') ? 'Desktop' : 'Mobile';
 });

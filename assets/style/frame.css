@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 body.backdrop {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
 }
 .frame {
   background: #fff;
