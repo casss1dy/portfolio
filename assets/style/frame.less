@@ -1,0 +1,86 @@
+@width-yall: 650px;
+@width-rdp: 576px;
+@btn-color-yal: #f5c506;
+@btn-color-rdp: #e3b873;
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+
+    &.backdrop {
+        background: rgba(0, 0, 0, 0.8);
+    }
+}
+
+
+.frame {
+    background: #fff;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+
+    .page-yal & {
+        &.mobile {
+            width: @width-yall;
+            //height: 1564px;
+        }
+    }
+
+    .page-rdp & {
+        &.mobile {
+            width: @width-rdp;
+            //height: 8984px;
+        }
+    }
+}
+
+.btn-block {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+
+.btn {
+    display: block;
+    margin-bottom: 15px;
+    padding: 20px 45px;
+    border-radius: 10px;
+    background: @btn-color-yal;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    opacity: 0.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+        opacity: 0.9;
+    }
+
+    .page-yal & {
+        background: @btn-color-yal;
+    }
+
+    .page-rdp & {
+        background: @btn-color-rdp;
+    }
+
+}
+
+.btn-mobile {
+    .page-yal & {
+        @media (max-width: @width-yall - 1) {
+            display: none;
+        }
+    }
+
+    .page-rdp & {
+        @media (max-width: @width-rdp - 1) {
+            display: none;
+        }
+    }
+
+}
