@@ -88,12 +88,12 @@ a:active {
   content: '';
   left: 2px;
   top: 2px;
-  background-image: url("img/skype.svg");
+  background-image: url("../img/skype.svg");
   height: 18px;
   width: 18px;
 }
 .github.contacts__item::before {
-  background-image: url("img/github.png");
+  background-image: url("../img/github.png");
   background-size: cover;
   height: 25px;
   width: 25px;
@@ -168,19 +168,19 @@ a:active {
   transform: scale(1.2);
 }
 .education__item_school {
-  background: url("img/school.jpg") center center no-repeat;
+  background: url("../img/school.jpg") center center no-repeat;
   background-size: cover;
 }
 .education__item_sstu {
-  background: url("img/sstu.jpg") center center no-repeat;
+  background: url("../img/sstu.jpg") center center no-repeat;
   background-size: cover;
 }
 .education__item_youcon {
-  background: url("img/youcon.jpg") center center no-repeat;
+  background: url("../img/youcon.jpg") center center no-repeat;
   background-size: cover;
 }
 .education__item_rss {
-  background: url("img/minsk.jpeg") center center no-repeat;
+  background: url("../img/minsk.jpeg") center center no-repeat;
   background-size: cover;
 }
 .education__item span {
@@ -198,7 +198,7 @@ a:active {
   position: relative;
 }
 .slider .slider-item {
-  background: url("img/the_yallow.jpg") center center no-repeat;
+  background: url("../img/the_yallow.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 40px;
 }
@@ -208,7 +208,7 @@ a:active {
   }
 }
 .slider .slider-item.item-rdp {
-  background-image: url("img/repair.jpg");
+  background-image: url("../img/repair.jpg");
   background-size: cover;
 }
 .slider .slider-item__text {
@@ -336,4 +336,4 @@ a:active {
 .block {
   margin-bottom: 30px;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
