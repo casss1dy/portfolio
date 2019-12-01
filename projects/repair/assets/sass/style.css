@@ -70,7 +70,7 @@ a:hover, a:active {
   background: #e3cb73;
 }
 .btn_bordered {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   color: #fff;
 }
 .btn_bordered:hover {

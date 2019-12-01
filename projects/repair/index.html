@@ -148,7 +148,6 @@
         <iframe src="https://www.youtube.com/embed/_YDuLCIzbN4?controls=0" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-<!--        <img src="assets/img/online_control_video.jpg" alt="">-->
       </div>
       <div class="online-control__text text-top-separated">
         At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can
@@ -159,12 +158,12 @@
       <div class="online-control__request">
         <form action="" class="request-link form">
           <div class="form__group">
-            <label class="form__label">Name</label>
-            <input class="form__input" type="text" placeholder="What is your name:" required>
+            <label class="form__label" for="name">Name</label>
+            <input class="form__input" id="name" type="text" placeholder="What is your name:" required>
           </div>
           <div class="form__group">
-            <label class="form__label">Phone</label>
-            <input class="form__input" type="tel" placeholder="Your phone number:" required>
+            <label class="form__label" for="phone">Phone</label>
+            <input class="form__input" id="phone" type="tel" placeholder="Your phone number:" required>
           </div>
           <div class="form__group order2">
             <button type="submit" class="form__btn btn btn_filled">Submit</button>
@@ -256,16 +255,16 @@
             Leave a request for free <br>departure of the measurer
           </div>
           <div class="form__group">
-            <label class="form__label">Name</label>
-            <input class="form__input" type="text" placeholder="What is your name:" required>
+            <label class="form__label" for="d-name">Name</label>
+            <input class="form__input" id="d-name" type="text" placeholder="What is your name:" required>
           </div>
           <div class="form__group">
-            <label class="form__label">Phone</label>
-            <input class="form__input" type="tel" placeholder="Your phone number:" required>
+            <label class="form__label" for="d-phone">Phone</label>
+            <input class="form__input" id="d-phone" type="tel" placeholder="Your phone number:" required>
           </div>
           <div class="form__group">
-            <label class="form__label">Email</label>
-            <input class="form__input" type="email" placeholder="Your email:" required>
+            <label class="form__label" for="d-email">Email</label>
+            <input class="form__input" id="d-email" type="email" placeholder="Your email:" required>
           </div>
           <div class="form__group">
             <label class="checkbox">
@@ -565,16 +564,16 @@
             have any questions?
           </div>
           <div class="form__group form__group_half">
-            <label class="form__label">Name</label>
-            <input class="form__input" type="text" placeholder="What is your name:" required>
+            <label class="form__label" for="q-name">Name</label>
+            <input class="form__input" id="q-name" type="text" placeholder="What is your name:" required>
           </div>
           <div class="form__group form__group_half">
-            <label class="form__label">Phone</label>
-            <input class="form__input" type="tel" placeholder="Your phone number:" required>
+            <label class="form__label" for="q-phone">Phone</label>
+            <input class="form__input" id="q-phone" type="tel" placeholder="Your phone number:" required>
           </div>
           <div class="form__group">
-            <label class="form__label">Question</label>
-            <textarea class="form__input form__textarea" placeholder="I want to know:" required></textarea>
+            <label class="form__label" for="q-quest">Question</label>
+            <textarea class="form__input form__textarea" id="q-quest" placeholder="I want to know:" required></textarea>
           </div>
           <div class="form__group form__group_text_center">
             <label class="checkbox">
@@ -596,7 +595,7 @@
       </div>
       <div class="map__social social">
         <a class="social__item social__mail" href="#"></a>
-        <a class="social__item social__inst" href="#">></a>
+        <a class="social__item social__inst" href="#"></a>
       </div>
       <div class="map__img">
         <img src="assets/img/map.jpg" alt="">

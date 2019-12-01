@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-html {
-
-}
-
 body {
   color: $c-text;
   font-family: 'FuturaBookC', sans-serif;
@@ -48,7 +44,7 @@ a {
   }
 
   &_bordered {
-    border: 1px solid #FFFFFF;
+    border: 1px solid #fff;
     color: #fff;
     &:hover {
       background: #fff;
@@ -137,7 +133,6 @@ a {
 
 .header-nav {
   display: flex;
-  //flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
@@ -332,9 +327,6 @@ a {
 }
 
 .menu {
-  &__list {
-
-  }
   &__item {
     display: inline-block;
   }
@@ -604,7 +596,6 @@ a {
 
 .block-title {
   position: relative;
-  //display: inline-block;
   padding-bottom: 50px;
   margin-bottom: 30px;
   font-family: 'Yeseva One', serif;
@@ -813,10 +804,6 @@ a {
           opacity: 1;
         }
       }
-      &__input {
-      }
-      &__checkbox {
-      }
       &__btn {
         height: 100%;
         width: 100%;
@@ -930,7 +917,6 @@ a {
   &__list {
     flex-basis: 55%;
     padding-left: 356px;
-    //padding-top: 102px;
     padding-bottom: 22px;
     list-style-type: none;
   }
@@ -1121,9 +1107,7 @@ a {
         display: none;
       }
     }
-    .item-2 {
 
-    }
     @media (max-width: $xl) {
       .item-2 {
         display: none;
@@ -1205,13 +1189,11 @@ a {
   color: #fff;
   &__container {
     display: flex;
-    //align-items: flex-end;
     justify-content: space-between;
     padding: 0 10px 45px;
   }
   &__text-slider {
     flex-basis: 32%;
-    //padding-left: 100px;
   }
   &__image-slider {
     flex-basis: 58%;
@@ -1385,10 +1367,10 @@ a {
 
 .clients {
   padding: 45px 0 95px;
-  @media (max-width: $xl){
+  @media (max-width: $xl) {
     padding: 20px 0 45px;
   }
-  @media (max-width: $md){
+  @media (max-width: $md) {
     display: none;
   }
   &__title {
@@ -1411,7 +1393,7 @@ a {
     padding: 0 10px;
     margin-left: -27px;
     margin-right: -27px;
-    @media (max-width: $xl){
+    @media (max-width: $xl) {
       flex-wrap: wrap;
       justify-content: center;
     }
@@ -1421,7 +1403,7 @@ a {
     padding-right: 27px;
     flex-basis: auto;
     position: relative;
-    @media (max-width: $xl){
+    @media (max-width: $xl) {
       flex-basis: 50%;
       margin-bottom: 50px;
       &:last-child {
@@ -1471,7 +1453,6 @@ a {
 .questions {
   position: relative;
   z-index: 10;
-  //background: linear-gradient(to bottom, #fff 50%, $bg-color-main 50%);
   @media (max-width: $sm) {
     background: $bg-color-main;
   }
